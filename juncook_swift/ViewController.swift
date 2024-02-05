@@ -11,9 +11,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        NotificationCenter.default.addObserver(self, selector: #selector(showOfflineDeviceUI(notification:)), name: NSNotification.Name.connectivityStatus, object: nil)
     }
 
-
+    @objc func showOfflineDeviceUI(notification: Notification) {
+        if NetWorkMonitor.shared.isConnected {
+            print("Connected")
+        } else {
+            print("Not connected")
+        }
+    }
 }
-

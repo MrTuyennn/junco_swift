@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		7A8A3B3F2B7093EA00085ECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8A3B3E2B7093EA00085ECA /* AppDelegate.swift */; };
 		7A8A3B412B7093EA00085ECA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8A3B402B7093EA00085ECA /* SceneDelegate.swift */; };
-		7A8A3B432B7093EA00085ECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8A3B422B7093EA00085ECA /* ViewController.swift */; };
 		7A8A3B462B7093EA00085ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A8A3B442B7093EA00085ECA /* Main.storyboard */; };
 		7A8A3B482B7093EB00085ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A8A3B472B7093EB00085ECA /* Assets.xcassets */; };
 		7A8A3B4B2B7093EB00085ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A8A3B492B7093EB00085ECA /* LaunchScreen.storyboard */; };
 		7A8A3B562B7093EB00085ECA /* juncook_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8A3B552B7093EB00085ECA /* juncook_swiftTests.swift */; };
 		7A8A3B602B7093EB00085ECA /* juncook_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8A3B5F2B7093EB00085ECA /* juncook_swiftUITests.swift */; };
 		7A8A3B622B7093EB00085ECA /* juncook_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8A3B612B7093EB00085ECA /* juncook_swiftUITestsLaunchTests.swift */; };
+		7A8A3B722B70A09300085ECA /* NetWorkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8A3B712B70A09300085ECA /* NetWorkMonitor.swift */; };
+		7A8A3B742B70C53300085ECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8A3B732B70C53300085ECA /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		7A8A3B3B2B7093EA00085ECA /* juncook_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = juncook_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A8A3B3E2B7093EA00085ECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A8A3B402B7093EA00085ECA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A8A3B422B7093EA00085ECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A8A3B452B7093EA00085ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A8A3B472B7093EB00085ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A8A3B4A2B7093EB00085ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		7A8A3B5B2B7093EB00085ECA /* juncook_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = juncook_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A8A3B5F2B7093EB00085ECA /* juncook_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = juncook_swiftUITests.swift; sourceTree = "<group>"; };
 		7A8A3B612B7093EB00085ECA /* juncook_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = juncook_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7A8A3B712B70A09300085ECA /* NetWorkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkMonitor.swift; sourceTree = "<group>"; };
+		7A8A3B732B70C53300085ECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,14 @@
 		7A8A3B3D2B7093EA00085ECA /* juncook_swift */ = {
 			isa = PBXGroup;
 			children = (
+				7A8A3B6E2B709FD000085ECA /* logic */,
 				7A8A3B3E2B7093EA00085ECA /* AppDelegate.swift */,
 				7A8A3B402B7093EA00085ECA /* SceneDelegate.swift */,
-				7A8A3B422B7093EA00085ECA /* ViewController.swift */,
 				7A8A3B442B7093EA00085ECA /* Main.storyboard */,
 				7A8A3B472B7093EB00085ECA /* Assets.xcassets */,
 				7A8A3B492B7093EB00085ECA /* LaunchScreen.storyboard */,
 				7A8A3B4C2B7093EB00085ECA /* Info.plist */,
+				7A8A3B732B70C53300085ECA /* ViewController.swift */,
 			);
 			path = juncook_swift;
 			sourceTree = "<group>";
@@ -125,6 +128,14 @@
 				7A8A3B612B7093EB00085ECA /* juncook_swiftUITestsLaunchTests.swift */,
 			);
 			path = juncook_swiftUITests;
+			sourceTree = "<group>";
+		};
+		7A8A3B6E2B709FD000085ECA /* logic */ = {
+			isa = PBXGroup;
+			children = (
+				7A8A3B712B70A09300085ECA /* NetWorkMonitor.swift */,
+			);
+			name = logic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A8A3B432B7093EA00085ECA /* ViewController.swift in Sources */,
+				7A8A3B722B70A09300085ECA /* NetWorkMonitor.swift in Sources */,
 				7A8A3B3F2B7093EA00085ECA /* AppDelegate.swift in Sources */,
+				7A8A3B742B70C53300085ECA /* ViewController.swift in Sources */,
 				7A8A3B412B7093EA00085ECA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,6 +462,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,6 +491,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
